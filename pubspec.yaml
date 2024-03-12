@@ -1,0 +1,31 @@
+name: tugas_4_3
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  flutter_svg: 2.0.10+1
+  google_fonts: 6.2.1
+  persistent_bottom_nav_bar_v2: 4.2.8
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: 3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - images/background.png
+    - images/facebook_ic.svg
+    - images/google_ic.svg
+    - images/nature02.png
+    - images/orang2.png
+    - images/orang3.png
+    - images/orang4.png
+  uses-material-design: true
